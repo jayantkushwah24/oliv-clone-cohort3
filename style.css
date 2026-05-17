@@ -179,6 +179,9 @@ nav {
   color: white;
   background-color: black;
 }
+.our-work {
+  margin: 5rem 0;
+}
 .work-cards {
   display: grid;
   height: 100%;
@@ -203,13 +206,79 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-.work-cards-text h2{
+.work-cards-text h2 {
   font-weight: 300;
   font-size: 1.3rem;
 }
-.work-cards-text h4{
+.work-cards-text h4 {
   font-weight: 200;
   border: 1px solid black;
   padding: 0.3rem 1rem;
   border-radius: 10rem;
+}
+.work-cards-text h4:hover {
+  color: white;
+  background-color: black;
+}
+.our-values {
+  height: 110%;
+  width: 100%;
+}
+.our-values-cards {
+  margin-top: 4rem;
+  height: 100%;
+  width: 100%;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.value-card {
+  background-color: #f1f6f5;
+  padding: 2.5rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.value-card p {
+  font-size: 0.7rem;
+}
+.value-card h4 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+#services-card h4 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+#services-card button{
+  background-color: black;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 10rem;
+
+}
+#about-oliv{
+  height: 1rem;
+}
+.our-values-last-para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 19rem;
+  margin: 3rem 0;
+}
+.our-values-last-para > .large-text-para{
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+.our-values-last-para .small-text-para{
+  display: flex;
+  gap: 2rem;
+  color: darkslategray;
 }
