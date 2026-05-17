@@ -154,3 +154,62 @@ nav {
   font-size: 1.1rem;
   text-decoration: underline;
 }
+.our-work {
+  margin: 5rem 0;
+}
+.main-headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+}
+.main-headline h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.main-headline a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10rem;
+  padding: 0.8rem 1.5rem;
+}
+.main-headline a:hover {
+  color: white;
+  background-color: black;
+}
+.work-cards {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+.work-img {
+  overflow: hidden;
+}
+.work img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+}
+.work img:hover {
+  transform: scale(1.1);
+}
+.work-cards-text {
+  display: flex;
+  justify-content: space-between;
+}
+.work-cards-text h2{
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+.work-cards-text h4{
+  font-weight: 200;
+  border: 1px solid black;
+  padding: 0.3rem 1rem;
+  border-radius: 10rem;
+}
