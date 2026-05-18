@@ -140,7 +140,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 4rem;
 }
 .service h1 {
   font-weight: 400;
@@ -244,6 +244,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 5rem;
 }
 .value-card p {
   font-size: 0.7rem;
@@ -382,4 +383,32 @@ nav {
 .customer-review .review .small-text {
   font-size: 0.8rem;
   margin: 1rem 0;
+}
+.contact {
+  margin: 5rem 0;
+  background-color: #f1f6f5;
+  height: 70vh;
+  display: flex;
+  gap: 18rem;
+  position: relative;
+  padding: 4rem;
+}
+
+.contact > div > h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+.contact > div > p {
+  font-size: 1.4rem;
+  margin: 2rem 0;
+}
+.contact > div > button {
+  padding: 0.8rem 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+.contact > div > button > svg{
+  height: 1rem;
 }
