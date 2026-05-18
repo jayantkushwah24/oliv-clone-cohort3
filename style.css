@@ -349,19 +349,37 @@ nav {
   width: 100%;
   object-fit: cover;
 }
-.our-team-cards .person-detail{
+.our-team-cards .person-detail {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0;
 }
-.our-team-cards .person-detail h3{
+.our-team-cards .person-detail h3 {
   font-weight: 400;
   font-size: 1rem;
 }
-.our-team-cards .person-detail p{
+.our-team-cards .person-detail p {
   font-size: 0.8rem;
   border: 1px solid black;
   border-radius: 10rem;
   padding: 0.3rem 0.8rem;
+}
+.customer-review-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5rem;
+  padding-left: 30%;
+}
+.customer-review {
+  display: flex;
+  gap: 3rem;
+}
+.customer-review .review .large-text {
+  font-size: 2rem;
+}
+.customer-review .review .small-text {
+  font-size: 0.8rem;
+  margin: 1rem 0;
 }
